@@ -6,6 +6,9 @@ body {
     font-family: system-ui;
     padding-left: 2rem;
     padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F7;
 }
 h1 {
     font-size: 1.5rem;
@@ -21,6 +24,11 @@ h2 {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+ul {
+    text-align: left;
+    margin-left: 1.5rem;
 }
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
